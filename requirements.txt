@@ -1,0 +1,25 @@
+# Core dependencies
+python-dotenv==1.1.0
+gitpython==3.1.44
+markdown==3.5.2
+beautifulsoup4==4.12.3
+
+# Vector DB and embeddings
+pinecone==6.0.*
+faiss-cpu==1.10.0
+sentence-transformers==4.1.0
+
+# LLM and RAG
+langchain==0.3.*
+langchain-community==0.3.*
+langchain-core==0.3.*
+langchain-openai==0.3.*
+openai==1.75.*
+
+# UI
+streamlit==1.44.1
+gradio==5.25.2
+
+# Utilities
+tqdm==4.66.2
+pydantic==2.11.3
