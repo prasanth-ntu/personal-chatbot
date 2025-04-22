@@ -4,6 +4,10 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
+from langchain.globals import set_verbose
+
+# Set verbose mode if needed
+set_verbose(False)
 
 @dataclass
 class Answer:

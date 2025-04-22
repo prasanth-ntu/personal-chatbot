@@ -41,9 +41,13 @@ The system consists of several key components:
 ## Setup
 
 1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Configure environment variables
-4. Run the application: `streamlit run src/app.py`
+2. Ensure atleast Python 3.11 is used
+3. Install dependencies: 
+   - `pip install -r requirements.txt`
+4. Configure environment variables
+5. Test the application: `python src/test_implementation.py`
+6. Run the application: `streamlit run src/app.py`
+   - To circumvent versioning issue if exists, `$(which python) -m streamlit run src/app.py`
 
 ## Configuration
 

@@ -5,6 +5,9 @@ from data_processor import DataProcessor
 from vector_db import PineconeDB, FAISSDB
 from rag import RAGSystem
 
+# Set environment variables
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 # Load environment variables
 load_dotenv()
 

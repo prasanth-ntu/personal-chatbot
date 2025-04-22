@@ -1,0 +1,12 @@
+[server]
+fileWatcherType = "none"
+
+[watcher]
+ignorePaths = [
+    "**/torch/**",
+    "**/torch_*/**",
+    "**/site-packages/**"
+]
+
+[environment]
+TOKENIZERS_PARALLELISM = "false" 
